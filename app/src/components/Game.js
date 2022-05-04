@@ -91,7 +91,7 @@ const Game = () => {
   return (
     <>
       <Header />
-      <div className="boardSection">
+      <div className="boardSection mt-5">
         <Board squares={current.squares} onClick={(i) => handleClick(i)} />
       </div>
       <Player upNext={state.isX ? "X" : "O"} />
